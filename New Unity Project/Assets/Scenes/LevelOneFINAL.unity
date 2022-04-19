@@ -134,7 +134,6 @@ GameObject:
   - component: {fileID: 14355572}
   - component: {fileID: 14355575}
   - component: {fileID: 14355574}
-  - component: {fileID: 14355573}
   m_Layer: 0
   m_Name: Peg (26)
   m_TagString: tea
@@ -156,18 +155,6 @@ Transform:
   m_Father: {fileID: 1518171125517972967}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &14355573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 14355571}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &14355574
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -246,7 +233,6 @@ GameObject:
   - component: {fileID: 29657878}
   - component: {fileID: 29657881}
   - component: {fileID: 29657880}
-  - component: {fileID: 29657879}
   m_Layer: 0
   m_Name: Peg (5)
   m_TagString: apple
@@ -268,18 +254,6 @@ Transform:
   m_Father: {fileID: 1518171125517972967}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &29657879
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 29657877}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &29657880
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -358,7 +332,6 @@ GameObject:
   - component: {fileID: 60857816}
   - component: {fileID: 60857819}
   - component: {fileID: 60857818}
-  - component: {fileID: 60857817}
   m_Layer: 0
   m_Name: Peg (41)
   m_TagString: tv
@@ -380,18 +353,6 @@ Transform:
   m_Father: {fileID: 1518171125517972967}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &60857817
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 60857815}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &60857818
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -470,7 +431,6 @@ GameObject:
   - component: {fileID: 68499429}
   - component: {fileID: 68499432}
   - component: {fileID: 68499431}
-  - component: {fileID: 68499430}
   m_Layer: 0
   m_Name: Peg (42)
   m_TagString: apple
@@ -492,18 +452,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &68499430
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 68499428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &68499431
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -582,7 +530,6 @@ GameObject:
   - component: {fileID: 79904009}
   - component: {fileID: 79904012}
   - component: {fileID: 79904011}
-  - component: {fileID: 79904010}
   m_Layer: 0
   m_Name: Peg (45)
   m_TagString: candy
@@ -604,18 +551,6 @@ Transform:
   m_Father: {fileID: 1518171125517972967}
   m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
---- !u!114 &79904010
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 79904008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &79904011
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -694,7 +629,6 @@ GameObject:
   - component: {fileID: 94848276}
   - component: {fileID: 94848279}
   - component: {fileID: 94848278}
-  - component: {fileID: 94848277}
   m_Layer: 0
   m_Name: Peg (7)
   m_TagString: fries
@@ -716,18 +650,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &94848277
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 94848275}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &94848278
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -806,7 +728,6 @@ GameObject:
   - component: {fileID: 121098346}
   - component: {fileID: 121098349}
   - component: {fileID: 121098348}
-  - component: {fileID: 121098347}
   m_Layer: 0
   m_Name: Peg (20)
   m_TagString: apple
@@ -828,18 +749,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &121098347
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 121098345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &121098348
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -918,7 +827,6 @@ GameObject:
   - component: {fileID: 132146478}
   - component: {fileID: 132146481}
   - component: {fileID: 132146480}
-  - component: {fileID: 132146479}
   m_Layer: 0
   m_Name: Peg (39)
   m_TagString: apple
@@ -940,18 +848,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &132146479
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 132146477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &132146480
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1030,7 +926,6 @@ GameObject:
   - component: {fileID: 185840455}
   - component: {fileID: 185840458}
   - component: {fileID: 185840457}
-  - component: {fileID: 185840456}
   m_Layer: 0
   m_Name: Peg (14)
   m_TagString: water
@@ -1052,18 +947,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &185840456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 185840454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &185840457
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1142,7 +1025,6 @@ GameObject:
   - component: {fileID: 186497587}
   - component: {fileID: 186497590}
   - component: {fileID: 186497589}
-  - component: {fileID: 186497588}
   m_Layer: 0
   m_Name: Peg (13)
   m_TagString: apple
@@ -1164,18 +1046,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &186497588
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 186497586}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &186497589
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1254,7 +1124,6 @@ GameObject:
   - component: {fileID: 213656937}
   - component: {fileID: 213656940}
   - component: {fileID: 213656939}
-  - component: {fileID: 213656938}
   m_Layer: 0
   m_Name: Peg (36)
   m_TagString: candy
@@ -1276,18 +1145,6 @@ Transform:
   m_Father: {fileID: 1518171125517972967}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
---- !u!114 &213656938
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 213656936}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &213656939
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1366,7 +1223,6 @@ GameObject:
   - component: {fileID: 214419549}
   - component: {fileID: 214419552}
   - component: {fileID: 214419551}
-  - component: {fileID: 214419550}
   m_Layer: 0
   m_Name: Peg (43)
   m_TagString: apple
@@ -1388,18 +1244,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &214419550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 214419548}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &214419551
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1478,7 +1322,6 @@ GameObject:
   - component: {fileID: 233907235}
   - component: {fileID: 233907238}
   - component: {fileID: 233907237}
-  - component: {fileID: 233907236}
   m_Layer: 0
   m_Name: Peg (2)
   m_TagString: apple
@@ -1500,18 +1343,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &233907236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 233907234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &233907237
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1590,7 +1421,6 @@ GameObject:
   - component: {fileID: 244737578}
   - component: {fileID: 244737581}
   - component: {fileID: 244737580}
-  - component: {fileID: 244737579}
   m_Layer: 0
   m_Name: Peg (21)
   m_TagString: apple
@@ -1612,18 +1442,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &244737579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 244737577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &244737580
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1702,7 +1520,6 @@ GameObject:
   - component: {fileID: 266524057}
   - component: {fileID: 266524060}
   - component: {fileID: 266524059}
-  - component: {fileID: 266524058}
   m_Layer: 0
   m_Name: Peg (32)
   m_TagString: tv
@@ -1724,18 +1541,6 @@ Transform:
   m_Father: {fileID: 1518171125517972967}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
---- !u!114 &266524058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 266524056}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &266524059
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1814,7 +1619,6 @@ GameObject:
   - component: {fileID: 321669955}
   - component: {fileID: 321669958}
   - component: {fileID: 321669957}
-  - component: {fileID: 321669956}
   m_Layer: 0
   m_Name: Peg (38)
   m_TagString: tea
@@ -1836,18 +1640,6 @@ Transform:
   m_Father: {fileID: 1518171125517972967}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &321669956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 321669954}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &321669957
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1926,7 +1718,6 @@ GameObject:
   - component: {fileID: 327408679}
   - component: {fileID: 327408682}
   - component: {fileID: 327408681}
-  - component: {fileID: 327408680}
   m_Layer: 0
   m_Name: Peg (25)
   m_TagString: tv
@@ -1948,18 +1739,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &327408680
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 327408678}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &327408681
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2038,7 +1817,6 @@ GameObject:
   - component: {fileID: 338442767}
   - component: {fileID: 338442770}
   - component: {fileID: 338442769}
-  - component: {fileID: 338442768}
   m_Layer: 0
   m_Name: Peg (23)
   m_TagString: apple
@@ -2060,18 +1838,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &338442768
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 338442766}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &338442769
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2150,7 +1916,6 @@ GameObject:
   - component: {fileID: 382939964}
   - component: {fileID: 382939967}
   - component: {fileID: 382939966}
-  - component: {fileID: 382939965}
   m_Layer: 0
   m_Name: Peg (19)
   m_TagString: apple
@@ -2172,18 +1937,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &382939965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 382939963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &382939966
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2262,7 +2015,6 @@ GameObject:
   - component: {fileID: 405955923}
   - component: {fileID: 405955926}
   - component: {fileID: 405955925}
-  - component: {fileID: 405955924}
   m_Layer: 0
   m_Name: Peg (20)
   m_TagString: apple
@@ -2284,18 +2036,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &405955924
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 405955922}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &405955925
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2374,7 +2114,6 @@ GameObject:
   - component: {fileID: 409462045}
   - component: {fileID: 409462048}
   - component: {fileID: 409462047}
-  - component: {fileID: 409462046}
   m_Layer: 0
   m_Name: Peg (38)
   m_TagString: candy
@@ -2396,18 +2135,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &409462046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 409462044}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &409462047
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2486,7 +2213,6 @@ GameObject:
   - component: {fileID: 413953283}
   - component: {fileID: 413953286}
   - component: {fileID: 413953285}
-  - component: {fileID: 413953284}
   m_Layer: 0
   m_Name: Peg (16)
   m_TagString: fries
@@ -2508,18 +2234,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &413953284
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 413953282}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &413953285
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2598,7 +2312,6 @@ GameObject:
   - component: {fileID: 427085598}
   - component: {fileID: 427085601}
   - component: {fileID: 427085600}
-  - component: {fileID: 427085599}
   m_Layer: 0
   m_Name: Peg (30)
   m_TagString: apple
@@ -2620,18 +2333,6 @@ Transform:
   m_Father: {fileID: 1518171125517972967}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &427085599
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 427085597}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &427085600
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2710,7 +2411,6 @@ GameObject:
   - component: {fileID: 432253032}
   - component: {fileID: 432253035}
   - component: {fileID: 432253034}
-  - component: {fileID: 432253033}
   m_Layer: 0
   m_Name: Peg (22)
   m_TagString: apple
@@ -2732,18 +2432,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &432253033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 432253031}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &432253034
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2822,7 +2510,6 @@ GameObject:
   - component: {fileID: 456795425}
   - component: {fileID: 456795428}
   - component: {fileID: 456795427}
-  - component: {fileID: 456795426}
   m_Layer: 0
   m_Name: Peg (31)
   m_TagString: tv
@@ -2844,18 +2531,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &456795426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 456795424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &456795427
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2934,7 +2609,6 @@ GameObject:
   - component: {fileID: 462154929}
   - component: {fileID: 462154932}
   - component: {fileID: 462154931}
-  - component: {fileID: 462154930}
   m_Layer: 0
   m_Name: Peg (34)
   m_TagString: alcohol
@@ -2956,18 +2630,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &462154930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 462154928}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &462154931
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3046,7 +2708,6 @@ GameObject:
   - component: {fileID: 467608446}
   - component: {fileID: 467608449}
   - component: {fileID: 467608448}
-  - component: {fileID: 467608447}
   m_Layer: 0
   m_Name: Peg (17)
   m_TagString: candy
@@ -3068,18 +2729,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &467608447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 467608445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &467608448
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3158,7 +2807,6 @@ GameObject:
   - component: {fileID: 473054793}
   - component: {fileID: 473054796}
   - component: {fileID: 473054795}
-  - component: {fileID: 473054794}
   m_Layer: 0
   m_Name: Peg (30)
   m_TagString: tea
@@ -3180,18 +2828,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &473054794
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 473054792}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &473054795
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3270,7 +2906,6 @@ GameObject:
   - component: {fileID: 475268248}
   - component: {fileID: 475268251}
   - component: {fileID: 475268250}
-  - component: {fileID: 475268249}
   m_Layer: 0
   m_Name: Peg (29)
   m_TagString: apple
@@ -3292,18 +2927,6 @@ Transform:
   m_Father: {fileID: 1518171125517972967}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &475268249
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 475268247}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &475268250
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3493,18 +3116,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MainMenu: Main Menu
+  Level1: Level1
   ScoreText: {fileID: 1518171126153888744}
   BallsRemaining: {fileID: 1518171125630762137}
   PointsUntilNextCamp: {fileID: 0}
   camp1Score: 1000
   camp2Score: 2500
   finalCampScore: 3500
-  alcoholVal: 20
+  alcoholVal: 15
   appleVal: 50
   teaVal: 55
   sleepVal: 70
-  candyVal: 15
-  tvVal: 25
+  candyVal: 20
+  tvVal: 10
   currentBall: 0
   maxBalls: 6
   slider1: {fileID: 0}
@@ -3593,7 +3217,6 @@ GameObject:
   - component: {fileID: 525232073}
   - component: {fileID: 525232076}
   - component: {fileID: 525232075}
-  - component: {fileID: 525232074}
   m_Layer: 0
   m_Name: Peg (4)
   m_TagString: water
@@ -3615,18 +3238,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &525232074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 525232072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &525232075
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3705,7 +3316,6 @@ GameObject:
   - component: {fileID: 548274024}
   - component: {fileID: 548274027}
   - component: {fileID: 548274026}
-  - component: {fileID: 548274025}
   m_Layer: 0
   m_Name: Peg (16)
   m_TagString: fries
@@ -3727,18 +3337,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &548274025
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 548274023}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &548274026
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3817,7 +3415,6 @@ GameObject:
   - component: {fileID: 600955347}
   - component: {fileID: 600955350}
   - component: {fileID: 600955349}
-  - component: {fileID: 600955348}
   m_Layer: 0
   m_Name: Peg (29)
   m_TagString: apple
@@ -3839,18 +3436,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &600955348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 600955346}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &600955349
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3929,7 +3514,6 @@ GameObject:
   - component: {fileID: 639064642}
   - component: {fileID: 639064645}
   - component: {fileID: 639064644}
-  - component: {fileID: 639064643}
   m_Layer: 0
   m_Name: Peg (27)
   m_TagString: apple
@@ -3951,18 +3535,6 @@ Transform:
   m_Father: {fileID: 1518171125517972967}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &639064643
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 639064641}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &639064644
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4041,7 +3613,6 @@ GameObject:
   - component: {fileID: 652838358}
   - component: {fileID: 652838361}
   - component: {fileID: 652838360}
-  - component: {fileID: 652838359}
   m_Layer: 0
   m_Name: Peg (33)
   m_TagString: apple
@@ -4063,18 +3634,6 @@ Transform:
   m_Father: {fileID: 1518171125517972967}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
---- !u!114 &652838359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 652838357}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &652838360
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4153,7 +3712,6 @@ GameObject:
   - component: {fileID: 670942630}
   - component: {fileID: 670942633}
   - component: {fileID: 670942632}
-  - component: {fileID: 670942631}
   m_Layer: 0
   m_Name: Peg (46)
   m_TagString: apple
@@ -4175,18 +3733,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &670942631
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 670942629}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &670942632
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4265,7 +3811,6 @@ GameObject:
   - component: {fileID: 678473060}
   - component: {fileID: 678473063}
   - component: {fileID: 678473062}
-  - component: {fileID: 678473061}
   m_Layer: 0
   m_Name: Peg (17)
   m_TagString: candy
@@ -4287,18 +3832,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &678473061
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 678473059}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &678473062
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4377,7 +3910,6 @@ GameObject:
   - component: {fileID: 696245125}
   - component: {fileID: 696245128}
   - component: {fileID: 696245127}
-  - component: {fileID: 696245126}
   m_Layer: 0
   m_Name: Peg (26)
   m_TagString: tv
@@ -4399,18 +3931,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &696245126
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 696245124}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &696245127
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4489,7 +4009,6 @@ GameObject:
   - component: {fileID: 700028413}
   - component: {fileID: 700028416}
   - component: {fileID: 700028415}
-  - component: {fileID: 700028414}
   m_Layer: 0
   m_Name: Peg (23)
   m_TagString: apple
@@ -4511,18 +4030,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &700028414
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 700028412}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &700028415
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4601,7 +4108,6 @@ GameObject:
   - component: {fileID: 748034145}
   - component: {fileID: 748034148}
   - component: {fileID: 748034147}
-  - component: {fileID: 748034146}
   m_Layer: 0
   m_Name: Peg (43)
   m_TagString: tea
@@ -4623,18 +4129,6 @@ Transform:
   m_Father: {fileID: 1518171125517972967}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &748034146
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 748034144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &748034147
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4713,7 +4207,6 @@ GameObject:
   - component: {fileID: 752424237}
   - component: {fileID: 752424240}
   - component: {fileID: 752424239}
-  - component: {fileID: 752424238}
   m_Layer: 0
   m_Name: Peg (24)
   m_TagString: apple
@@ -4735,18 +4228,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &752424238
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 752424236}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &752424239
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4825,7 +4306,6 @@ GameObject:
   - component: {fileID: 770120544}
   - component: {fileID: 770120547}
   - component: {fileID: 770120546}
-  - component: {fileID: 770120545}
   m_Layer: 0
   m_Name: Peg (40)
   m_TagString: tv
@@ -4847,18 +4327,6 @@ Transform:
   m_Father: {fileID: 1518171125517972967}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &770120545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 770120543}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &770120546
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4937,7 +4405,6 @@ GameObject:
   - component: {fileID: 810081716}
   - component: {fileID: 810081719}
   - component: {fileID: 810081718}
-  - component: {fileID: 810081717}
   m_Layer: 0
   m_Name: Peg (27)
   m_TagString: sleep
@@ -4959,18 +4426,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &810081717
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 810081715}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &810081718
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5049,7 +4504,6 @@ GameObject:
   - component: {fileID: 813707219}
   - component: {fileID: 813707222}
   - component: {fileID: 813707221}
-  - component: {fileID: 813707220}
   m_Layer: 0
   m_Name: Peg
   m_TagString: apple
@@ -5071,18 +4525,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &813707220
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 813707218}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &813707221
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5161,7 +4603,6 @@ GameObject:
   - component: {fileID: 816393939}
   - component: {fileID: 816393942}
   - component: {fileID: 816393941}
-  - component: {fileID: 816393940}
   m_Layer: 0
   m_Name: Peg (10)
   m_TagString: tea
@@ -5183,18 +4624,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &816393940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816393938}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &816393941
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5273,7 +4702,6 @@ GameObject:
   - component: {fileID: 861628645}
   - component: {fileID: 861628648}
   - component: {fileID: 861628647}
-  - component: {fileID: 861628646}
   m_Layer: 0
   m_Name: Peg (40)
   m_TagString: apple
@@ -5295,18 +4723,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &861628646
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 861628644}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &861628647
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5385,7 +4801,6 @@ GameObject:
   - component: {fileID: 897150323}
   - component: {fileID: 897150326}
   - component: {fileID: 897150325}
-  - component: {fileID: 897150324}
   m_Layer: 0
   m_Name: Peg (31)
   m_TagString: tv
@@ -5407,18 +4822,6 @@ Transform:
   m_Father: {fileID: 1518171125517972967}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
---- !u!114 &897150324
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 897150322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &897150325
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5579,7 +4982,6 @@ GameObject:
   - component: {fileID: 936918297}
   - component: {fileID: 936918300}
   - component: {fileID: 936918299}
-  - component: {fileID: 936918298}
   m_Layer: 0
   m_Name: Peg (34)
   m_TagString: alcohol
@@ -5601,18 +5003,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &936918298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 936918296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &936918299
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5691,7 +5081,6 @@ GameObject:
   - component: {fileID: 971633805}
   - component: {fileID: 971633808}
   - component: {fileID: 971633807}
-  - component: {fileID: 971633806}
   m_Layer: 0
   m_Name: Peg (24)
   m_TagString: apple
@@ -5713,18 +5102,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &971633806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 971633804}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &971633807
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5803,7 +5180,6 @@ GameObject:
   - component: {fileID: 982780180}
   - component: {fileID: 982780183}
   - component: {fileID: 982780182}
-  - component: {fileID: 982780181}
   m_Layer: 0
   m_Name: Peg (44)
   m_TagString: candy
@@ -5825,18 +5201,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &982780181
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 982780179}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &982780182
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5915,7 +5279,6 @@ GameObject:
   - component: {fileID: 987298938}
   - component: {fileID: 987298941}
   - component: {fileID: 987298940}
-  - component: {fileID: 987298939}
   m_Layer: 0
   m_Name: Peg (45)
   m_TagString: candy
@@ -5937,18 +5300,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &987298939
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 987298937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &987298940
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6027,7 +5378,6 @@ GameObject:
   - component: {fileID: 1032090224}
   - component: {fileID: 1032090227}
   - component: {fileID: 1032090226}
-  - component: {fileID: 1032090225}
   m_Layer: 0
   m_Name: Peg (28)
   m_TagString: apple
@@ -6049,18 +5399,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1032090225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1032090223}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1032090226
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6219,7 +5557,6 @@ GameObject:
   - component: {fileID: 1068492685}
   - component: {fileID: 1068492688}
   - component: {fileID: 1068492687}
-  - component: {fileID: 1068492686}
   m_Layer: 0
   m_Name: Peg (35)
   m_TagString: apple
@@ -6241,18 +5578,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1068492686
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1068492684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1068492687
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6331,7 +5656,6 @@ GameObject:
   - component: {fileID: 1073487759}
   - component: {fileID: 1073487762}
   - component: {fileID: 1073487761}
-  - component: {fileID: 1073487760}
   m_Layer: 0
   m_Name: Peg (28)
   m_TagString: apple
@@ -6353,18 +5677,6 @@ Transform:
   m_Father: {fileID: 1518171125517972967}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1073487760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1073487758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1073487761
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6443,7 +5755,6 @@ GameObject:
   - component: {fileID: 1099548564}
   - component: {fileID: 1099548567}
   - component: {fileID: 1099548566}
-  - component: {fileID: 1099548565}
   m_Layer: 0
   m_Name: Peg (9)
   m_TagString: apple
@@ -6465,18 +5776,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1099548565
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1099548563}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1099548566
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6555,7 +5854,6 @@ GameObject:
   - component: {fileID: 1101852215}
   - component: {fileID: 1101852218}
   - component: {fileID: 1101852217}
-  - component: {fileID: 1101852216}
   m_Layer: 0
   m_Name: Peg (30)
   m_TagString: tea
@@ -6577,18 +5875,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1101852216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1101852214}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1101852217
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6667,7 +5953,6 @@ GameObject:
   - component: {fileID: 1125839053}
   - component: {fileID: 1125839056}
   - component: {fileID: 1125839055}
-  - component: {fileID: 1125839054}
   m_Layer: 0
   m_Name: Peg (19)
   m_TagString: apple
@@ -6689,18 +5974,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1125839054
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125839052}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1125839055
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6779,7 +6052,6 @@ GameObject:
   - component: {fileID: 1135388208}
   - component: {fileID: 1135388211}
   - component: {fileID: 1135388210}
-  - component: {fileID: 1135388209}
   m_Layer: 0
   m_Name: Peg (13)
   m_TagString: apple
@@ -6801,18 +6073,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1135388209
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1135388207}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1135388210
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6891,7 +6151,6 @@ GameObject:
   - component: {fileID: 1157706987}
   - component: {fileID: 1157706990}
   - component: {fileID: 1157706989}
-  - component: {fileID: 1157706988}
   m_Layer: 0
   m_Name: Peg (11)
   m_TagString: tv
@@ -6913,18 +6172,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1157706988
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1157706986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1157706989
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7003,7 +6250,6 @@ GameObject:
   - component: {fileID: 1164538690}
   - component: {fileID: 1164538693}
   - component: {fileID: 1164538692}
-  - component: {fileID: 1164538691}
   m_Layer: 0
   m_Name: Peg (39)
   m_TagString: water
@@ -7025,18 +6271,6 @@ Transform:
   m_Father: {fileID: 1518171125517972967}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1164538691
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1164538689}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1164538692
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7115,7 +6349,6 @@ GameObject:
   - component: {fileID: 1209353410}
   - component: {fileID: 1209353413}
   - component: {fileID: 1209353412}
-  - component: {fileID: 1209353411}
   m_Layer: 0
   m_Name: Peg (37)
   m_TagString: candy
@@ -7137,18 +6370,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1209353411
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1209353409}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1209353412
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7227,7 +6448,6 @@ GameObject:
   - component: {fileID: 1217332264}
   - component: {fileID: 1217332267}
   - component: {fileID: 1217332266}
-  - component: {fileID: 1217332265}
   m_Layer: 0
   m_Name: Peg (41)
   m_TagString: apple
@@ -7249,18 +6469,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1217332265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1217332263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1217332266
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7339,7 +6547,6 @@ GameObject:
   - component: {fileID: 1250528680}
   - component: {fileID: 1250528683}
   - component: {fileID: 1250528682}
-  - component: {fileID: 1250528681}
   m_Layer: 0
   m_Name: Peg (27)
   m_TagString: sleep
@@ -7361,18 +6568,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1250528681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250528679}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1250528682
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7451,7 +6646,6 @@ GameObject:
   - component: {fileID: 1256331621}
   - component: {fileID: 1256331624}
   - component: {fileID: 1256331623}
-  - component: {fileID: 1256331622}
   m_Layer: 0
   m_Name: Peg (36)
   m_TagString: fries
@@ -7473,18 +6667,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1256331622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1256331620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1256331623
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7563,7 +6745,6 @@ GameObject:
   - component: {fileID: 1268928312}
   - component: {fileID: 1268928315}
   - component: {fileID: 1268928314}
-  - component: {fileID: 1268928313}
   m_Layer: 0
   m_Name: Peg (33)
   m_TagString: sleep
@@ -7585,18 +6766,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1268928313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1268928311}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1268928314
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7664,6 +6833,327 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1276638505
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1276638509}
+  - component: {fileID: 1276638508}
+  - component: {fileID: 1276638507}
+  - component: {fileID: 1276638506}
+  m_Layer: 0
+  m_Name: Audio Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1276638506
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276638505}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!82 &1276638507
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276638505}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!82 &1276638508
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276638505}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 927686fafbd7f62409fa5fc0946bb75b, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1276638509
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276638505}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1121.5785, y: 628.40735, z: 0.8515625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1276978139
 GameObject:
   m_ObjectHideFlags: 0
@@ -7675,7 +7165,6 @@ GameObject:
   - component: {fileID: 1276978140}
   - component: {fileID: 1276978143}
   - component: {fileID: 1276978142}
-  - component: {fileID: 1276978141}
   m_Layer: 0
   m_Name: Peg (15)
   m_TagString: tea
@@ -7697,18 +7186,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1276978141
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1276978139}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1276978142
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7787,7 +7264,6 @@ GameObject:
   - component: {fileID: 1304386221}
   - component: {fileID: 1304386224}
   - component: {fileID: 1304386223}
-  - component: {fileID: 1304386222}
   m_Layer: 0
   m_Name: Peg (6)
   m_TagString: apple
@@ -7809,18 +7285,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1304386222
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1304386220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1304386223
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7899,7 +7363,6 @@ GameObject:
   - component: {fileID: 1307003253}
   - component: {fileID: 1307003256}
   - component: {fileID: 1307003255}
-  - component: {fileID: 1307003254}
   m_Layer: 0
   m_Name: Peg (42)
   m_TagString: apple
@@ -7921,18 +7384,6 @@ Transform:
   m_Father: {fileID: 1518171125517972967}
   m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1307003254
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1307003252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1307003255
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8011,7 +7462,6 @@ GameObject:
   - component: {fileID: 1316969631}
   - component: {fileID: 1316969634}
   - component: {fileID: 1316969633}
-  - component: {fileID: 1316969632}
   m_Layer: 0
   m_Name: Peg (25)
   m_TagString: tv
@@ -8033,18 +7483,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1316969632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1316969630}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1316969633
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8123,7 +7561,6 @@ GameObject:
   - component: {fileID: 1317070809}
   - component: {fileID: 1317070812}
   - component: {fileID: 1317070811}
-  - component: {fileID: 1317070810}
   m_Layer: 0
   m_Name: Peg (26)
   m_TagString: tv
@@ -8145,18 +7582,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1317070810
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1317070808}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1317070811
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8235,7 +7660,6 @@ GameObject:
   - component: {fileID: 1358089168}
   - component: {fileID: 1358089171}
   - component: {fileID: 1358089170}
-  - component: {fileID: 1358089169}
   m_Layer: 0
   m_Name: Peg (12)
   m_TagString: apple
@@ -8257,18 +7681,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1358089169
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1358089167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1358089170
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8347,7 +7759,6 @@ GameObject:
   - component: {fileID: 1360149620}
   - component: {fileID: 1360149623}
   - component: {fileID: 1360149622}
-  - component: {fileID: 1360149621}
   m_Layer: 0
   m_Name: Peg (32)
   m_TagString: fries
@@ -8369,18 +7780,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1360149621
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1360149619}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1360149622
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8459,7 +7858,6 @@ GameObject:
   - component: {fileID: 1378381584}
   - component: {fileID: 1378381587}
   - component: {fileID: 1378381586}
-  - component: {fileID: 1378381585}
   m_Layer: 0
   m_Name: Peg (43)
   m_TagString: apple
@@ -8481,18 +7879,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1378381585
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1378381583}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1378381586
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8571,7 +7957,6 @@ GameObject:
   - component: {fileID: 1397001511}
   - component: {fileID: 1397001514}
   - component: {fileID: 1397001513}
-  - component: {fileID: 1397001512}
   m_Layer: 0
   m_Name: Peg (8)
   m_TagString: alcohol
@@ -8593,18 +7978,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1397001512
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1397001510}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1397001513
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8683,7 +8056,6 @@ GameObject:
   - component: {fileID: 1407840735}
   - component: {fileID: 1407840738}
   - component: {fileID: 1407840737}
-  - component: {fileID: 1407840736}
   m_Layer: 0
   m_Name: Peg (18)
   m_TagString: tea
@@ -8705,18 +8077,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1407840736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1407840734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1407840737
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8795,7 +8155,6 @@ GameObject:
   - component: {fileID: 1431647904}
   - component: {fileID: 1431647907}
   - component: {fileID: 1431647906}
-  - component: {fileID: 1431647905}
   m_Layer: 0
   m_Name: Peg (3)
   m_TagString: tea
@@ -8817,18 +8176,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1431647905
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1431647903}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1431647906
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8907,7 +8254,6 @@ GameObject:
   - component: {fileID: 1451647811}
   - component: {fileID: 1451647814}
   - component: {fileID: 1451647813}
-  - component: {fileID: 1451647812}
   m_Layer: 0
   m_Name: Peg (31)
   m_TagString: tv
@@ -8929,18 +8275,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1451647812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1451647810}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1451647813
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9019,7 +8353,6 @@ GameObject:
   - component: {fileID: 1482830166}
   - component: {fileID: 1482830169}
   - component: {fileID: 1482830168}
-  - component: {fileID: 1482830167}
   m_Layer: 0
   m_Name: Peg (42)
   m_TagString: apple
@@ -9041,18 +8374,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1482830167
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1482830165}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1482830168
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9131,7 +8452,6 @@ GameObject:
   - component: {fileID: 1494229283}
   - component: {fileID: 1494229286}
   - component: {fileID: 1494229285}
-  - component: {fileID: 1494229284}
   m_Layer: 0
   m_Name: Peg (22)
   m_TagString: apple
@@ -9153,18 +8473,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1494229284
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1494229282}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1494229285
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9243,7 +8551,6 @@ GameObject:
   - component: {fileID: 1504991814}
   - component: {fileID: 1504991817}
   - component: {fileID: 1504991816}
-  - component: {fileID: 1504991815}
   m_Layer: 0
   m_Name: Peg (12)
   m_TagString: apple
@@ -9265,18 +8572,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1504991815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1504991813}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1504991816
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9355,7 +8650,6 @@ GameObject:
   - component: {fileID: 1515425068}
   - component: {fileID: 1515425071}
   - component: {fileID: 1515425070}
-  - component: {fileID: 1515425069}
   m_Layer: 0
   m_Name: Peg (44)
   m_TagString: candy
@@ -9377,18 +8671,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1515425069
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1515425067}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1515425070
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9467,7 +8749,6 @@ GameObject:
   - component: {fileID: 1552224940}
   - component: {fileID: 1552224943}
   - component: {fileID: 1552224942}
-  - component: {fileID: 1552224941}
   m_Layer: 0
   m_Name: Peg (18)
   m_TagString: tea
@@ -9489,18 +8770,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1552224941
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1552224939}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1552224942
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9579,7 +8848,6 @@ GameObject:
   - component: {fileID: 1560634508}
   - component: {fileID: 1560634511}
   - component: {fileID: 1560634510}
-  - component: {fileID: 1560634509}
   m_Layer: 0
   m_Name: Peg (45)
   m_TagString: candy
@@ -9601,18 +8869,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1560634509
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1560634507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1560634510
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9691,7 +8947,6 @@ GameObject:
   - component: {fileID: 1589135298}
   - component: {fileID: 1589135301}
   - component: {fileID: 1589135300}
-  - component: {fileID: 1589135299}
   m_Layer: 0
   m_Name: Peg (33)
   m_TagString: sleep
@@ -9713,18 +8968,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1589135299
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1589135297}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1589135300
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9803,7 +9046,6 @@ GameObject:
   - component: {fileID: 1599513966}
   - component: {fileID: 1599513969}
   - component: {fileID: 1599513968}
-  - component: {fileID: 1599513967}
   m_Layer: 0
   m_Name: Peg (37)
   m_TagString: candy
@@ -9825,18 +9067,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1599513967
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1599513965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1599513968
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9915,7 +9145,6 @@ GameObject:
   - component: {fileID: 1602077520}
   - component: {fileID: 1602077523}
   - component: {fileID: 1602077522}
-  - component: {fileID: 1602077521}
   m_Layer: 0
   m_Name: Peg (46)
   m_TagString: apple
@@ -9937,18 +9166,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1602077521
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1602077519}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1602077522
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10027,7 +9244,6 @@ GameObject:
   - component: {fileID: 1605649516}
   - component: {fileID: 1605649519}
   - component: {fileID: 1605649518}
-  - component: {fileID: 1605649517}
   m_Layer: 0
   m_Name: Peg (34)
   m_TagString: apple
@@ -10049,18 +9265,6 @@ Transform:
   m_Father: {fileID: 1518171125517972967}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1605649517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1605649515}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1605649518
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10139,7 +9343,6 @@ GameObject:
   - component: {fileID: 1605778252}
   - component: {fileID: 1605778255}
   - component: {fileID: 1605778254}
-  - component: {fileID: 1605778253}
   m_Layer: 0
   m_Name: Peg (8)
   m_TagString: alcohol
@@ -10161,18 +9364,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1605778253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1605778251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1605778254
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10251,7 +9442,6 @@ GameObject:
   - component: {fileID: 1724428190}
   - component: {fileID: 1724428193}
   - component: {fileID: 1724428192}
-  - component: {fileID: 1724428191}
   m_Layer: 0
   m_Name: Peg (35)
   m_TagString: apple
@@ -10273,18 +9463,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1724428191
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1724428189}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1724428192
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10363,7 +9541,6 @@ GameObject:
   - component: {fileID: 1731275752}
   - component: {fileID: 1731275755}
   - component: {fileID: 1731275754}
-  - component: {fileID: 1731275753}
   m_Layer: 0
   m_Name: Peg (38)
   m_TagString: candy
@@ -10385,18 +9562,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1731275753
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1731275751}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1731275754
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10475,7 +9640,6 @@ GameObject:
   - component: {fileID: 1771430724}
   - component: {fileID: 1771430727}
   - component: {fileID: 1771430726}
-  - component: {fileID: 1771430725}
   m_Layer: 0
   m_Name: Peg (40)
   m_TagString: apple
@@ -10497,18 +9661,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1771430725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1771430723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1771430726
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10587,7 +9739,6 @@ GameObject:
   - component: {fileID: 1773702784}
   - component: {fileID: 1773702787}
   - component: {fileID: 1773702786}
-  - component: {fileID: 1773702785}
   m_Layer: 0
   m_Name: Peg (28)
   m_TagString: apple
@@ -10609,18 +9760,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1773702785
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1773702783}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1773702786
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10699,7 +9838,6 @@ GameObject:
   - component: {fileID: 1795490886}
   - component: {fileID: 1795490889}
   - component: {fileID: 1795490888}
-  - component: {fileID: 1795490887}
   m_Layer: 0
   m_Name: Peg (6)
   m_TagString: apple
@@ -10721,18 +9859,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1795490887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1795490885}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1795490888
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10811,7 +9937,6 @@ GameObject:
   - component: {fileID: 1854411578}
   - component: {fileID: 1854411581}
   - component: {fileID: 1854411580}
-  - component: {fileID: 1854411579}
   m_Layer: 0
   m_Name: Peg (21)
   m_TagString: apple
@@ -10833,18 +9958,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1854411579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1854411577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1854411580
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10923,7 +10036,6 @@ GameObject:
   - component: {fileID: 1857278222}
   - component: {fileID: 1857278225}
   - component: {fileID: 1857278224}
-  - component: {fileID: 1857278223}
   m_Layer: 0
   m_Name: Peg (35)
   m_TagString: apple
@@ -10945,18 +10057,6 @@ Transform:
   m_Father: {fileID: 1518171125517972967}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
---- !u!114 &1857278223
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1857278221}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1857278224
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11035,7 +10135,6 @@ GameObject:
   - component: {fileID: 1860943756}
   - component: {fileID: 1860943759}
   - component: {fileID: 1860943758}
-  - component: {fileID: 1860943757}
   m_Layer: 0
   m_Name: Peg (14)
   m_TagString: water
@@ -11057,18 +10156,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1860943757
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1860943755}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1860943758
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11262,7 +10349,6 @@ GameObject:
   - component: {fileID: 1906695520}
   - component: {fileID: 1906695523}
   - component: {fileID: 1906695522}
-  - component: {fileID: 1906695521}
   m_Layer: 0
   m_Name: Peg (41)
   m_TagString: apple
@@ -11284,18 +10370,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1906695521
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1906695519}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1906695522
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11374,7 +10448,6 @@ GameObject:
   - component: {fileID: 1981285481}
   - component: {fileID: 1981285484}
   - component: {fileID: 1981285483}
-  - component: {fileID: 1981285482}
   m_Layer: 0
   m_Name: Peg (36)
   m_TagString: fries
@@ -11396,18 +10469,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1981285482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1981285480}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1981285483
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11486,7 +10547,6 @@ GameObject:
   - component: {fileID: 1983803281}
   - component: {fileID: 1983803284}
   - component: {fileID: 1983803283}
-  - component: {fileID: 1983803282}
   m_Layer: 0
   m_Name: Peg (15)
   m_TagString: tea
@@ -11508,18 +10568,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1983803282
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1983803280}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1983803283
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11598,7 +10646,6 @@ GameObject:
   - component: {fileID: 1993191710}
   - component: {fileID: 1993191713}
   - component: {fileID: 1993191712}
-  - component: {fileID: 1993191711}
   m_Layer: 0
   m_Name: Peg (32)
   m_TagString: fries
@@ -11620,18 +10667,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1993191711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1993191709}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1993191712
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11710,7 +10745,6 @@ GameObject:
   - component: {fileID: 2033274957}
   - component: {fileID: 2033274960}
   - component: {fileID: 2033274959}
-  - component: {fileID: 2033274958}
   m_Layer: 0
   m_Name: Peg (39)
   m_TagString: apple
@@ -11732,18 +10766,6 @@ Transform:
   m_Father: {fileID: 1053566857}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2033274958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2033274956}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &2033274959
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11822,7 +10844,6 @@ GameObject:
   - component: {fileID: 2131411047}
   - component: {fileID: 2131411050}
   - component: {fileID: 2131411049}
-  - component: {fileID: 2131411048}
   m_Layer: 0
   m_Name: Peg (37)
   m_TagString: candy
@@ -11844,18 +10865,6 @@ Transform:
   m_Father: {fileID: 1518171125517972967}
   m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
---- !u!114 &2131411048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2131411046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &2131411049
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11934,7 +10943,6 @@ GameObject:
   - component: {fileID: 2136388409}
   - component: {fileID: 2136388412}
   - component: {fileID: 2136388411}
-  - component: {fileID: 2136388410}
   m_Layer: 0
   m_Name: Peg (29)
   m_TagString: apple
@@ -11956,18 +10964,6 @@ Transform:
   m_Father: {fileID: 1518171125587563919}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2136388410
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2136388408}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &2136388411
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12035,18 +11031,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &334287051494171382
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3025045005225953634}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1454112110556132009
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16812,7 +15796,6 @@ GameObject:
   - component: {fileID: 3377880526833169000}
   - component: {fileID: 3689885401673629886}
   - component: {fileID: 4761832668554711767}
-  - component: {fileID: 334287051494171382}
   m_Layer: 0
   m_Name: Peg (5)
   m_TagString: apple
@@ -20452,18 +19435,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5951725275671020168
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9205490336499460380}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &5986809872311074035
 GameObject:
   m_ObjectHideFlags: 0
@@ -20475,7 +19446,6 @@ GameObject:
   - component: {fileID: 6057009216947652601}
   - component: {fileID: 5321968892285760815}
   - component: {fileID: 4105902073675704134}
-  - component: {fileID: 9101165678746244967}
   m_Layer: 0
   m_Name: Peg (20)
   m_TagString: apple
@@ -20494,7 +19464,6 @@ GameObject:
   - component: {fileID: 6057009217023210808}
   - component: {fileID: 5321968892361230318}
   - component: {fileID: 4105902073600218503}
-  - component: {fileID: 9101165678804886950}
   m_Layer: 0
   m_Name: Peg (6)
   m_TagString: tv
@@ -20513,7 +19482,6 @@ GameObject:
   - component: {fileID: 6057009217023806370}
   - component: {fileID: 5321968892359817588}
   - component: {fileID: 4105902073599290141}
-  - component: {fileID: 9101165678805883708}
   m_Layer: 0
   m_Name: Peg (1)
   m_TagString: apple
@@ -20532,7 +19500,6 @@ GameObject:
   - component: {fileID: 6057009217013820141}
   - component: {fileID: 5321968892351977531}
   - component: {fileID: 4105902073608161874}
-  - component: {fileID: 9101165678813723251}
   m_Layer: 0
   m_Name: Peg (18)
   m_TagString: tea
@@ -20551,7 +19518,6 @@ GameObject:
   - component: {fileID: 6057009216999644173}
   - component: {fileID: 5321968892375363291}
   - component: {fileID: 4105902073576668338}
-  - component: {fileID: 9101165678790757523}
   m_Layer: 0
   m_Name: Peg (17)
   m_TagString: apple
@@ -20570,7 +19536,6 @@ GameObject:
   - component: {fileID: 6057009216866285288}
   - component: {fileID: 5321968892508455998}
   - component: {fileID: 4105902073709631063}
-  - component: {fileID: 9101165678657791606}
   m_Layer: 0
   m_Name: Peg (24)
   m_TagString: apple
@@ -20589,7 +19554,6 @@ GameObject:
   - component: {fileID: 6057009216863412323}
   - component: {fileID: 5321968892503429813}
   - component: {fileID: 4105902073726189788}
-  - component: {fileID: 9101165678662136061}
   m_Layer: 0
   m_Name: Peg (25)
   m_TagString: apple
@@ -20608,7 +19572,6 @@ GameObject:
   - component: {fileID: 6057009216896549974}
   - component: {fileID: 5321968892469540480}
   - component: {fileID: 4105902073692202217}
-  - component: {fileID: 9101165678629082312}
   m_Layer: 0
   m_Name: Peg (15)
   m_TagString: apple
@@ -20627,7 +19590,6 @@ GameObject:
   - component: {fileID: 6057009216658463905}
   - component: {fileID: 5321968892027891319}
   - component: {fileID: 4105902073384909854}
-  - component: {fileID: 9101165678466616383}
   m_Layer: 0
   m_Name: Peg (16)
   m_TagString: tv
@@ -20646,7 +19608,6 @@ GameObject:
   - component: {fileID: 6057009216691615496}
   - component: {fileID: 5321968891996014046}
   - component: {fileID: 4105902073353066423}
-  - component: {fileID: 9101165678431348630}
   m_Layer: 0
   m_Name: Peg (10)
   m_TagString: tea
@@ -20665,7 +19626,6 @@ GameObject:
   - component: {fileID: 6057009216745434397}
   - component: {fileID: 5321968892083527627}
   - component: {fileID: 4105902073339743650}
-  - component: {fileID: 9101165678545337731}
   m_Layer: 0
   m_Name: Peg (22)
   m_TagString: tv
@@ -20684,7 +19644,6 @@ GameObject:
   - component: {fileID: 6057009216728866878}
   - component: {fileID: 5321968892100580072}
   - component: {fileID: 4105902073322684545}
-  - component: {fileID: 9101165678528770208}
   m_Layer: 0
   m_Name: Peg (10)
   m_TagString: tv
@@ -20703,7 +19662,6 @@ GameObject:
   - component: {fileID: 6057009216778112584}
   - component: {fileID: 5321968892051078302}
   - component: {fileID: 4105902073303265015}
-  - component: {fileID: 9101165678510513878}
   m_Layer: 0
   m_Name: Peg (2)
   m_TagString: tv
@@ -20722,7 +19680,6 @@ GameObject:
   - component: {fileID: 6057009216547803256}
   - component: {fileID: 5321968892156371630}
   - component: {fileID: 4105902073525907655}
-  - component: {fileID: 9101165678338130150}
   m_Layer: 0
   m_Name: Peg (4)
   m_TagString: water
@@ -20741,7 +19698,6 @@ GameObject:
   - component: {fileID: 6057009216530802548}
   - component: {fileID: 5321968892172850594}
   - component: {fileID: 4105902073508366283}
-  - component: {fileID: 9101165678322186218}
   m_Layer: 0
   m_Name: Peg (4)
   m_TagString: water
@@ -20760,7 +19716,6 @@ GameObject:
   - component: {fileID: 6057009216573990055}
   - component: {fileID: 5321968892113409649}
   - component: {fileID: 4105902073503843352}
-  - component: {fileID: 9101165678314124345}
   m_Layer: 0
   m_Name: Peg (4)
   m_TagString: tv
@@ -20779,7 +19734,6 @@ GameObject:
   - component: {fileID: 6057009216566466654}
   - component: {fileID: 5321968892137417352}
   - component: {fileID: 4105902073476970721}
-  - component: {fileID: 9101165678290602176}
   m_Layer: 0
   m_Name: Peg (3)
   m_TagString: tea
@@ -20798,7 +19752,6 @@ GameObject:
   - component: {fileID: 6057009217417007558}
   - component: {fileID: 5321968891949867792}
   - component: {fileID: 4105902074279768441}
-  - component: {fileID: 9101165678142112088}
   m_Layer: 0
   m_Name: Peg (13)
   m_TagString: apple
@@ -20817,7 +19770,6 @@ GameObject:
   - component: {fileID: 6057009217214140479}
   - component: {fileID: 5321968891480597225}
   - component: {fileID: 4105902073940586624}
-  - component: {fileID: 9101165677940293793}
   m_Layer: 0
   m_Name: Peg (22)
   m_TagString: tv
@@ -20836,7 +19788,6 @@ GameObject:
   - component: {fileID: 6057009217256612352}
   - component: {fileID: 5321968891455951062}
   - component: {fileID: 4105902073899156159}
-  - component: {fileID: 9101165677897839262}
   m_Layer: 0
   m_Name: Peg (8)
   m_TagString: tv
@@ -20855,7 +19806,6 @@ GameObject:
   - component: {fileID: 6057009217308808805}
   - component: {fileID: 5321968891537450163}
   - component: {fileID: 4105902073816626906}
-  - component: {fileID: 9101165677950945019}
   m_Layer: 0
   m_Name: Peg (2)
   m_TagString: tv
@@ -20874,7 +19824,6 @@ GameObject:
   - component: {fileID: 6057009217297452824}
   - component: {fileID: 5321968891532525006}
   - component: {fileID: 4105902073824702375}
-  - component: {fileID: 9101165677955456902}
   m_Layer: 0
   m_Name: Peg (2)
   m_TagString: apple
@@ -20893,7 +19842,6 @@ GameObject:
   - component: {fileID: 6057009217069589525}
   - component: {fileID: 5321968891633768131}
   - component: {fileID: 4105902074047710378}
-  - component: {fileID: 9101165677786969227}
   m_Layer: 0
   m_Name: Peg (3)
   m_TagString: tea
@@ -20912,7 +19860,6 @@ GameObject:
   - component: {fileID: 6057009217147547390}
   - component: {fileID: 5321968891682429992}
   - component: {fileID: 4105902074008227393}
-  - component: {fileID: 9101165677872660064}
   m_Layer: 0
   m_Name: Peg (7)
   m_TagString: apple
@@ -20931,7 +19878,6 @@ GameObject:
   - component: {fileID: 6057009218015604526}
   - component: {fileID: 5321968893355859448}
   - component: {fileID: 4105902074741542801}
-  - component: {fileID: 9101165677676150704}
   m_Layer: 0
   m_Name: Peg (17)
   m_TagString: apple
@@ -20950,7 +19896,6 @@ GameObject:
   - component: {fileID: 6057009218036006332}
   - component: {fileID: 5321968893344665450}
   - component: {fileID: 4105902074696899843}
-  - component: {fileID: 9101165677620129058}
   m_Layer: 0
   m_Name: Peg (7)
   m_TagString: fries
@@ -20969,7 +19914,6 @@ GameObject:
   - component: {fileID: 6057009218074359123}
   - component: {fileID: 5321968893448095621}
   - component: {fileID: 4105902074649302508}
-  - component: {fileID: 9101165677718119885}
   m_Layer: 0
   m_Name: Peg (19)
   m_TagString: apple
@@ -20988,7 +19932,6 @@ GameObject:
   - component: {fileID: 6057009217880536991}
   - component: {fileID: 5321968893491184969}
   - component: {fileID: 4105902074877531936}
-  - component: {fileID: 9101165677540157185}
   m_Layer: 0
   m_Name: Peg (18)
   m_TagString: tv
@@ -21007,7 +19950,6 @@ GameObject:
   - component: {fileID: 6057009217899075849}
   - component: {fileID: 5321968893472123871}
   - component: {fileID: 4105902074828454326}
-  - component: {fileID: 9101165677492767127}
   m_Layer: 0
   m_Name: Peg (19)
   m_TagString: apple
@@ -21026,7 +19968,6 @@ GameObject:
   - component: {fileID: 6057009217904856927}
   - component: {fileID: 5321968893475814793}
   - component: {fileID: 4105902074832105440}
-  - component: {fileID: 9101165677489119169}
   m_Layer: 0
   m_Name: Peg (11)
   m_TagString: tv
@@ -21045,7 +19986,6 @@ GameObject:
   - component: {fileID: 6057009217996787672}
   - component: {fileID: 5321968893534059790}
   - component: {fileID: 4105902074773073767}
-  - component: {fileID: 9101165677564927814}
   m_Layer: 0
   m_Name: Peg (21)
   m_TagString: tea
@@ -21064,7 +20004,6 @@ GameObject:
   - component: {fileID: 6057009217745541055}
   - component: {fileID: 5321968893115032937}
   - component: {fileID: 4105902074454685440}
-  - component: {fileID: 9101165677379995425}
   m_Layer: 0
   m_Name: Peg (6)
   m_TagString: tv
@@ -21083,7 +20022,6 @@ GameObject:
   - component: {fileID: 6057009217745045594}
   - component: {fileID: 5321968893114481292}
   - component: {fileID: 4105902074454190309}
-  - component: {fileID: 9101165677380556996}
   m_Layer: 0
   m_Name: Peg (10)
   m_TagString: tea
@@ -21102,7 +20040,6 @@ GameObject:
   - component: {fileID: 6057009217639709372}
   - component: {fileID: 5321968893212739690}
   - component: {fileID: 4105902074552261123}
-  - component: {fileID: 9101165677215312418}
   m_Layer: 0
   m_Name: Peg (1)
   m_TagString: tea
@@ -21121,7 +20058,6 @@ GameObject:
   - component: {fileID: 6057009218562454602}
   - component: {fileID: 5321968892826863260}
   - component: {fileID: 4105902075273680117}
-  - component: {fileID: 9101165677131424980}
   m_Layer: 0
   m_Name: Peg (20)
   m_TagString: tea
@@ -21140,7 +20076,6 @@ GameObject:
   - component: {fileID: 6057009218596191553}
   - component: {fileID: 5321968892791263127}
   - component: {fileID: 4105902075238768126}
-  - component: {fileID: 9101165677099232735}
   m_Layer: 0
   m_Name: Peg (16)
   m_TagString: tv
@@ -21159,7 +20094,6 @@ GameObject:
   - component: {fileID: 6057009218585188362}
   - component: {fileID: 5321968892786567900}
   - component: {fileID: 4105902075246622901}
-  - component: {fileID: 9101165677103958164}
   m_Layer: 0
   m_Name: Peg
   m_TagString: apple
@@ -21178,7 +20112,6 @@ GameObject:
   - component: {fileID: 6057009218588103627}
   - component: {fileID: 5321968892783124765}
   - component: {fileID: 4105902075246916468}
-  - component: {fileID: 9101165677107921749}
   m_Layer: 0
   m_Name: Peg (9)
   m_TagString: apple
@@ -21197,7 +20130,6 @@ GameObject:
   - component: {fileID: 6057009218621808577}
   - component: {fileID: 5321968892884135191}
   - component: {fileID: 4105902075214069630}
-  - component: {fileID: 9101165677207818079}
   m_Layer: 0
   m_Name: Peg (14)
   m_TagString: tea
@@ -21216,7 +20148,6 @@ GameObject:
   - component: {fileID: 6057009218604510195}
   - component: {fileID: 5321968892900383013}
   - component: {fileID: 4105902075196754764}
-  - component: {fileID: 9101165677191576429}
   m_Layer: 0
   m_Name: Peg (14)
   m_TagString: apple
@@ -21235,7 +20166,6 @@ GameObject:
   - component: {fileID: 6057009218646052415}
   - component: {fileID: 5321968892876930281}
   - component: {fileID: 4105902075156524672}
-  - component: {fileID: 9101165677147922081}
   m_Layer: 0
   m_Name: Peg (11)
   m_TagString: apple
@@ -21254,7 +20184,6 @@ GameObject:
   - component: {fileID: 6057009218406012096}
   - component: {fileID: 5321968892974392854}
   - component: {fileID: 4105902075400893567}
-  - component: {fileID: 9101165676983239774}
   m_Layer: 0
   m_Name: Peg (11)
   m_TagString: apple
@@ -21273,7 +20202,6 @@ GameObject:
   - component: {fileID: 6057009218451110814}
   - component: {fileID: 5321968892920908104}
   - component: {fileID: 4105902075380964129}
-  - component: {fileID: 9101165676969618176}
   m_Layer: 0
   m_Name: Peg (23)
   m_TagString: apple
@@ -21292,7 +20220,6 @@ GameObject:
   - component: {fileID: 6057009218449243788}
   - component: {fileID: 5321968892948466778}
   - component: {fileID: 4105902075361795635}
-  - component: {fileID: 9101165676942716434}
   m_Layer: 0
   m_Name: Peg (8)
   m_TagString: tv
@@ -21311,7 +20238,6 @@ GameObject:
   - component: {fileID: 6057009218528293610}
   - component: {fileID: 5321968892993896508}
   - component: {fileID: 4105902075306660437}
-  - component: {fileID: 9101165677031334516}
   m_Layer: 0
   m_Name: Peg (3)
   m_TagString: apple
@@ -21330,7 +20256,6 @@ GameObject:
   - component: {fileID: 6057009218509798144}
   - component: {fileID: 5321968893013215702}
   - component: {fileID: 4105902075288656831}
-  - component: {fileID: 9101165677011659678}
   m_Layer: 0
   m_Name: Peg (23)
   m_TagString: tea
@@ -21349,7 +20274,6 @@ GameObject:
   - component: {fileID: 6057009218292942152}
   - component: {fileID: 5321968892559472542}
   - component: {fileID: 4105902075002119671}
-  - component: {fileID: 9101165676861920726}
   m_Layer: 0
   m_Name: Peg (13)
   m_TagString: apple
@@ -21368,7 +20292,6 @@ GameObject:
   - component: {fileID: 6057009218269323054}
   - component: {fileID: 5321968892565007864}
   - component: {fileID: 4105902074995277713}
-  - component: {fileID: 9101165676856250288}
   m_Layer: 0
   m_Name: Peg (9)
   m_TagString: tv
@@ -21387,7 +20310,6 @@ GameObject:
   - component: {fileID: 6057009218340344026}
   - component: {fileID: 5321968892636094988}
   - component: {fileID: 4105902074932572261}
-  - component: {fileID: 9101165676918882372}
   m_Layer: 0
   m_Name: Peg (7)
   m_TagString: apple
@@ -21406,7 +20328,6 @@ GameObject:
   - component: {fileID: 6057009218160802137}
   - component: {fileID: 5321968892691352463}
   - component: {fileID: 4105902075138398694}
-  - component: {fileID: 9101165676729903559}
   m_Layer: 0
   m_Name: Peg (21)
   m_TagString: tv
@@ -21425,7 +20346,6 @@ GameObject:
   - component: {fileID: 6057009218192311009}
   - component: {fileID: 5321968892660101175}
   - component: {fileID: 4105902075102814814}
-  - component: {fileID: 9101165676694180479}
   m_Layer: 0
   m_Name: Peg (9)
   m_TagString: apple
@@ -21444,7 +20364,6 @@ GameObject:
   - component: {fileID: 6057009218200477463}
   - component: {fileID: 5321968892768857537}
   - component: {fileID: 4105902075061174184}
-  - component: {fileID: 9101165676786093961}
   m_Layer: 0
   m_Name: Peg
   m_TagString: apple
@@ -21463,7 +20382,6 @@ GameObject:
   - component: {fileID: 6057009218239437548}
   - component: {fileID: 5321968892738545722}
   - component: {fileID: 4105902075034597971}
-  - component: {fileID: 9101165676749818482}
   m_Layer: 0
   m_Name: Peg (12)
   m_TagString: tv
@@ -22278,642 +21196,6 @@ Transform:
   m_Father: {fileID: 1518171124483545827}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &9101165676694180479
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809874344262123}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165676729903559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809874312594003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165676749818482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809874441576934}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165676786093961
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809874402681885}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165676856250288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809874204075044}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165676861920726
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809874176523842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165676918882372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809874275167184}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165676942716434
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809874097849734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165676969618176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809874082873492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165676983239774
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809874071351242}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165677011659678
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809874158403594}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165677031334516
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809874144332256}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165677099232735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809873943791179}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165677103958164
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809873948533504}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165677107921749
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809873952434369}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165677131424980
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809873909141312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165677147922081
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809874026313013}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165677191576429
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809874002579705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165677207818079
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809873985283275}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165677215312418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809873825251766}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165677379995425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809873662536885}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165677380556996
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809873663030096}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165677489119169
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809873570329685}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165677492767127
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809873565590019}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165677540157185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809873512303765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165677564927814
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809873612846290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165677620129058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809873432889014}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165677676150704
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809873380119588}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165677718119885
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809873455582809}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165677786969227
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809873256062751}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165677872660064
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809873316255220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165677897839262
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809873140111626}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165677940293793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809873115474741}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165677950945019
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809873226853743}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165677955456902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809873231361042}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165678142112088
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809873048922828}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165678290602176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809872753075028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165678314124345
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809872742703021}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165678322186218
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809872717208702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165678338130150
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809872699681650}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165678431348630
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809872625306626}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165678466616383
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809872593217451}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165678510513878
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809872679318850}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165678528770208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809872663812916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165678545337731
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809872646755863}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165678629082312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809872563011420}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165678657791606
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809872515943906}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165678662136061
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809872528743273}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165678746244967
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809872311074035}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165678790757523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809872380749575}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165678804886950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809872369765938}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165678805883708
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809872370446504}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9101165678813723251
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5986809872378335719}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &9205490336499460380
 GameObject:
   m_ObjectHideFlags: 0
@@ -22925,7 +21207,6 @@ GameObject:
   - component: {fileID: 8708768325554852374}
   - component: {fileID: 7281896110823530688}
   - component: {fileID: 1454112110556132009}
-  - component: {fileID: 5951725275671020168}
   m_Layer: 0
   m_Name: Peg
   m_TagString: apple

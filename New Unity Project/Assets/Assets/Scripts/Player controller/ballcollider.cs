@@ -10,18 +10,11 @@ public class ballcollider : MonoBehaviour
     public AudioSource bad;
     
 
-    int AV, APV, CV, SV, TV, TVV;
-    public float CS;
   
 
     private void Start()
     {
-        CS = GC.GetComponent<GameController>().currentScore;
-        AV = GC.GetComponent<GameController>().alcoholVal;
-        APV = GC.GetComponent<GameController>().appleVal;
-        TVV = GC.GetComponent<GameController>().tvVal;
-        TV = GC.GetComponent<GameController>().teaVal;
-        CV = GC.GetComponent<GameController>().candyVal;
+       GC = FindObjectOfType<GameController>();
 
     }
 
@@ -31,37 +24,37 @@ public class ballcollider : MonoBehaviour
         Debug.Log("hit");
         if (collision.gameObject.tag == "apple")
         {
-            CS += APV;
+            GC.GetComponent<GameController>().apple();
             good.Play();
             collision.gameObject.SetActive(false);
         }
         if(collision.gameObject.tag == "sleep")
         {
-            CS += SV;
+            GC.GetComponent<GameController>().sleep();
             good.Play();
             collision.gameObject.SetActive(false);
         } 
         if(collision.gameObject.tag == "alcohol")
         {
-            CS += AV;
+            GC.GetComponent<GameController>().alcohol();
             bad.Play();
             collision.gameObject.SetActive(false);
         }  
         if(collision.gameObject.tag == "candy")
         {
-            CS += CV;
+            GC.GetComponent<GameController>().candy();
             bad.Play();
             collision.gameObject.SetActive(false);
         } 
         if(collision.gameObject.tag == "tea")
         {
-            CS += TV;
+            GC.GetComponent<GameController>().tea();
             good.Play();
             collision.gameObject.SetActive(false);
         } 
         if(collision.gameObject.tag == "tv")
         {
-            CS += TVV;
+            GC.GetComponent<GameController>().tv();
             bad.Play();
             collision.gameObject.SetActive(false);
         }

@@ -10,6 +10,7 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
     public string MainMenu;
+    public string Level1;
 
     [Header("Text")]
     public TMP_Text ScoreText;
@@ -39,7 +40,7 @@ public class GameController : MonoBehaviour
     public float s1Max;
     public float s2Max;
     public float s3Max;
-    public float currentScore;
+    public int currentScore;
 
     [Header("bools")]
     private bool _slider1, _slider2, _slider3;
@@ -64,11 +65,13 @@ public class GameController : MonoBehaviour
         BallText();
         PauseMenu();
         
+        
     }
 
     public void ScoreTextUpdate()
     {
         ScoreText.text = currentScore.ToString();
+        
     }
 
   
@@ -119,7 +122,7 @@ public class GameController : MonoBehaviour
         }
         else
         {
-            currentBall -= 1;
+            currentBall += 1;
         }
 
 
@@ -198,6 +201,10 @@ public class GameController : MonoBehaviour
     public void LoadMainMenu()
     {
         SceneManager.LoadScene(MainMenu);
+    }  
+    public void LoadLevel1()
+    {
+        SceneManager.LoadScene(Level1);
     }
 
     public void Quit()
@@ -226,7 +233,36 @@ public class GameController : MonoBehaviour
     }
 
 
+    public void apple()
+    {
+        currentScore += appleVal;
 
+    } 
+    public void tv()
+    {
+        currentScore += tvVal;
+
+    } 
+    public void alcohol()
+    {
+        currentScore += alcoholVal;
+
+    } 
+    public void sleep()
+    {
+        currentScore += sleepVal;
+
+    }
+    public void tea()
+    {
+        currentScore += teaVal;
+
+    }
+    public void candy()
+    {
+        currentScore += candyVal;
+
+    }
 
 
 
