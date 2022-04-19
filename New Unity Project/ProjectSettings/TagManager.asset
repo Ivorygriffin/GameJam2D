@@ -5,6 +5,14 @@ TagManager:
   serializedVersion: 2
   tags:
   - item
+  - apple
+  - tv
+  - tea
+  - candy
+  - water
+  - sleep
+  - alcohol
+  - fries
   layers:
   - Default
   - TransparentFX
