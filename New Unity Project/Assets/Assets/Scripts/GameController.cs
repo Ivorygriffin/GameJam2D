@@ -11,6 +11,8 @@ public class GameController : MonoBehaviour
 {
     public string MainMenu;
     public string Level1;
+    public string win;
+    public string lose;
 
     [Header("Text")]
     public TMP_Text ScoreText;
@@ -65,7 +67,7 @@ public class GameController : MonoBehaviour
         MountainClimbing();
         PointCheck();
         BallText();
-        PauseMenu();
+        //PauseMenu();
         LevelComplete();
         
         
@@ -239,6 +241,15 @@ public class GameController : MonoBehaviour
     {
         pauseMenu.SetActive(false);
         Time.timeScale = 1;
+    }
+
+    public void LoadWin()
+    {
+        SceneManager.LoadScene(win);
+    }
+    public void Loadlose()
+    {
+        SceneManager.LoadScene(lose);
     }
 
 

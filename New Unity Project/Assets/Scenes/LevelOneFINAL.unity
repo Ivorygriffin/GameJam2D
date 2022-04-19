@@ -3675,6 +3675,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MainMenu: Main Menu
   Level1: Level1
+  win: win
+  lose: lose
   ScoreText: {fileID: 1518171126153888744}
   BallsRemaining: {fileID: 1518171125630762137}
   PointsUntilNextCamp: {fileID: 0}
