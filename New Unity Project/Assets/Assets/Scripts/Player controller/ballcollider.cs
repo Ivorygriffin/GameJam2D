@@ -6,7 +6,9 @@ public class ballcollider : MonoBehaviour
 {
 
     public GameController GC;
-
+    public AudioSource good;
+    public AudioSource bad;
+    
 
     int AV, APV, CV, SV, TV, TVV;
     public float CS;
@@ -30,41 +32,49 @@ public class ballcollider : MonoBehaviour
         if (collision.gameObject.tag == "apple")
         {
             CS += APV;
+            good.Play();
             collision.gameObject.SetActive(false);
         }
         if(collision.gameObject.tag == "sleep")
         {
             CS += SV;
+            good.Play();
             collision.gameObject.SetActive(false);
         } 
         if(collision.gameObject.tag == "alcohol")
         {
             CS += AV;
+            bad.Play();
             collision.gameObject.SetActive(false);
         }  
         if(collision.gameObject.tag == "candy")
         {
             CS += CV;
+            bad.Play();
             collision.gameObject.SetActive(false);
         } 
         if(collision.gameObject.tag == "tea")
         {
             CS += TV;
+            good.Play();
             collision.gameObject.SetActive(false);
         } 
         if(collision.gameObject.tag == "tv")
         {
             CS += TVV;
+            bad.Play();
             collision.gameObject.SetActive(false);
         }
         if(collision.gameObject.tag == "water")
         {
             GC.GetComponent<GameController>().SuperGood();
+            good.Play();
             collision.gameObject.SetActive(false);
         } 
         if(collision.gameObject.tag == "fries")
         {
             GC.GetComponent<GameController>().SuperBad();
+            bad.Play();
             collision.gameObject.SetActive(false);
         }
         if (collision.gameObject.tag == "ground")
