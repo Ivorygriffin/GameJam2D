@@ -27,39 +27,49 @@ public class ballcollider : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("hit");
-        if (gameObject.tag == "apple")
+        if (collision.gameObject.tag == "apple")
         {
             CS += APV;
             collision.gameObject.SetActive(false);
         }
-        if(gameObject.tag == "sleep")
+        if(collision.gameObject.tag == "sleep")
         {
             CS += SV;
             collision.gameObject.SetActive(false);
         } 
-        if(gameObject.tag == "alcohol")
+        if(collision.gameObject.tag == "alcohol")
         {
             CS += AV;
             collision.gameObject.SetActive(false);
         }  
-        if(gameObject.tag == "candy")
+        if(collision.gameObject.tag == "candy")
         {
             CS += CV;
             collision.gameObject.SetActive(false);
         } 
-        if(gameObject.tag == "tea")
+        if(collision.gameObject.tag == "tea")
         {
             CS += TV;
             collision.gameObject.SetActive(false);
         } 
-        if(gameObject.tag == "tv")
+        if(collision.gameObject.tag == "tv")
         {
             CS += TVV;
             collision.gameObject.SetActive(false);
         }
-        if (gameObject.tag == "ground")
+        if(collision.gameObject.tag == "water")
         {
-            Destroy(gameObject.gameObject);
+            GC.GetComponent<GameController>().SuperGood();
+            collision.gameObject.SetActive(false);
+        } 
+        if(collision.gameObject.tag == "fries")
+        {
+            GC.GetComponent<GameController>().SuperBad();
+            collision.gameObject.SetActive(false);
+        }
+        if (collision.gameObject.tag == "ground")
+        {
+            Destroy(this.gameObject);
         }
 
     }

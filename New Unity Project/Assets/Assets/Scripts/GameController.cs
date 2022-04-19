@@ -51,6 +51,8 @@ public class GameController : MonoBehaviour
         _slider1 = true;
         _slider2 = false;
         _slider3 = false;
+
+        Cursor.lockState = CursorLockMode.Confined;
     }
 
 

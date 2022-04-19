@@ -5,6 +5,8 @@ using UnityEngine;
 public class Curve : MonoBehaviour
 {
     Rigidbody2D rb;
+
+    bool hasHit;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -13,7 +15,12 @@ public class Curve : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        trackMovement();
+      
+
+        if (hasHit == false)
+        {
+            trackMovement();
+        }
     }
 
     void trackMovement()
@@ -24,7 +31,10 @@ public class Curve : MonoBehaviour
         transform.rotation = Quaternion.AngleAxis(angle,Vector3.forward);
     }
 
-
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        hasHit = true;
+    }
 
 
 

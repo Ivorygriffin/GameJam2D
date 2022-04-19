@@ -8,18 +8,19 @@ public class Canon : MonoBehaviour
     public Vector2 direction;
     public Vector3 mousePosition;
     public float force;
-    public GameObject pointPrefab;
-    public GameObject[] points;
-    public int numberOfPoints;
+    //public GameObject pointPrefab;
+    //public GameObject[] points;
+    //public int numberOfPoints;
 
     void Start()
     {
-        points = new GameObject[numberOfPoints];
+        //points = new GameObject[numberOfPoints];
 
-        for (int i = 0; i < numberOfPoints; i++)
-        {
-            points[i] = Instantiate(pointPrefab, transform.position, Quaternion.identity);
-        }
+        //for (int i = 0; i < numberOfPoints; i++)
+        //{
+        //    points[i] = Instantiate(pointPrefab, transform.position, Quaternion.identity);
+        //}
+        
     }
 
     
@@ -34,21 +35,21 @@ public class Canon : MonoBehaviour
    
         FaceMouse();
 
-        for (int i = 0; i < points.Length; i++)
-        {
-            points[i].transform.position = PointPosition(i * 0.1f);
-        }
+        //for (int i = 0; i < points.Length; i++)
+        //{
+        //    points[i].transform.position = PointPosition(i * 0.1f);
+        //}
 
     }
 
     void FaceMouse()
     {
-        transform.right = direction;
+        transform.up = direction;
     }
 
-    Vector2 PointPosition(float t)
-    {
-        Vector2 currentPointPos = (Vector2)transform.position + (direction.normalized * force * t) + 0.5f * Physics2D.gravity * (t * t);
-        return currentPointPos;
-    }
+    //Vector2 PointPosition(float t)
+    //{
+    //    Vector2 currentPointPos = (Vector2)transform.position + (direction.normalized * force * t) + 0.5f * Physics2D.gravity * (t * t);
+    //    return currentPointPos;
+    //}
 }
