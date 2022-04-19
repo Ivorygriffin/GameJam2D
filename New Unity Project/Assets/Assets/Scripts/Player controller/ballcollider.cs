@@ -30,34 +30,37 @@ public class ballcollider : MonoBehaviour
         if (gameObject.tag == "apple")
         {
             CS += APV;
-            Destroy(collision.gameObject);
+            collision.gameObject.SetActive(false);
         }
         if(gameObject.tag == "sleep")
         {
             CS += SV;
-            Destroy(collision.gameObject);
+            collision.gameObject.SetActive(false);
         } 
         if(gameObject.tag == "alcohol")
         {
             CS += AV;
-            Destroy(collision.gameObject);
+            collision.gameObject.SetActive(false);
         }  
         if(gameObject.tag == "candy")
         {
             CS += CV;
-            Destroy(collision.gameObject);
+            collision.gameObject.SetActive(false);
         } 
         if(gameObject.tag == "tea")
         {
             CS += TV;
-            Destroy(collision.gameObject);
+            collision.gameObject.SetActive(false);
         } 
         if(gameObject.tag == "tv")
         {
             CS += TVV;
-            Destroy(collision.gameObject);
+            collision.gameObject.SetActive(false);
         }
-
+        if (gameObject.tag == "ground")
+        {
+            Destroy(gameObject.gameObject);
+        }
 
     }
    

@@ -46,6 +46,7 @@ public class GameController : MonoBehaviour
     [Header("GameObjects")]
     public GameObject camp1,camp2;
     public GameObject slider1, slider2, slider3;
+    public GameObject refreshScreen, antiRefresh, screen1, screen2,screen3;
 
     [Header("Sliders")]
     public Slider s1, s2, s3;
@@ -189,12 +190,52 @@ public class GameController : MonoBehaviour
     }
     public void SuperBad()
     {
-        //anti-refresh aka removes pegs from screen
+        screen1.SetActive(false);
+        screen2.SetActive(false);
+        screen3.SetActive(false);
+        refreshScreen.SetActive(false);
+        antiRefresh.SetActive(false);
+        antiRefresh.SetActive(true);
+        
     }
 
     public void SuperGood()
     {
-        //refreshes pegs on screen
+        screen1.SetActive(false);
+        screen2.SetActive(false);
+        screen3.SetActive(false);
+        refreshScreen.SetActive(false);
+        antiRefresh.SetActive(false);
+        refreshScreen.SetActive(true);
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
