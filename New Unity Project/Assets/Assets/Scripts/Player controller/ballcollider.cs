@@ -6,7 +6,7 @@ public class ballcollider : MonoBehaviour
 {
 
     public GameController GC;
-    Item item;
+
 
     int AV, APV, CV, SV, TV, TVV;
     public float CS;

@@ -3,30 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-public enum CampType 
-{
-    socialising,
-    relaxing
+using UnityEngine.SceneManagement;
 
-}
-public enum ItemType 
-{
-    apple,
-    water,
-    tea,
-    sleep,
-    alcohol,
-    candy,
-    tv,
-    fastFood
-
-
-}
 
 
 public class GameController : MonoBehaviour
 {
-    
+    public string MainMenu;
 
     [Header("Text")]
     public TMP_Text ScoreText;
@@ -41,12 +24,13 @@ public class GameController : MonoBehaviour
     public int finalCampScore;
     public int alcoholVal, appleVal, teaVal, sleepVal, candyVal, tvVal;
     public int currentBall, maxBalls;
-    
+
 
     [Header("GameObjects")]
-    public GameObject camp1,camp2;
-    public GameObject slider1, slider2, slider3;
-    public GameObject refreshScreen, antiRefresh, screen1, screen2,screen3;
+    public GameObject slider1;
+    public GameObject slider2;
+    public GameObject slider3;
+    public GameObject refreshScreen, antiRefresh, screen1, screen2,screen3, gameoverScreen, winScreen, pauseMenu;
 
     [Header("Sliders")]
     public Slider s1, s2, s3;
@@ -75,6 +59,8 @@ public class GameController : MonoBehaviour
         ScoreTextUpdate();
         //MountainClimbing();
         PointCheck();
+        BallText();
+        PauseMenu();
         
     }
 
@@ -140,12 +126,15 @@ public class GameController : MonoBehaviour
 
     public void Socialising()
     {
-        //more good pegs on screen
+        screen1.SetActive(false);
+        screen2.SetActive(true);
+
     }
 
     public void Relaxing()
     {
-        // super good appears
+        screen2.SetActive(false);
+        screen3.SetActive(true);
     }
 
     public void LevelComplete()
@@ -153,35 +142,28 @@ public class GameController : MonoBehaviour
         //third camp reached triggers end of level 
         if(currentScore == finalCampScore)
         {
+            winScreen.SetActive(true);
             Debug.Log("levelComplete");
         }
     }
 
     public void GameOver()
     {
-        
+        gameoverScreen.SetActive(true);
     }
 
-    public void ItemHit()
-    {
-        //item collision determines number of points added
-       
-
-    }
 
     public void PointCheck()
     {
         //checks if number of points reaches a camp
         if(currentScore == camp1Score)
         {
-            camp1.SetActive(true);
-             // go into different script attached to camp in scene and check type
+            Socialising();
+            
         }
         if(currentScore == camp2Score)
         {
-            camp1.SetActive(false);
-            camp2.SetActive(true);
-            // go into different script attached to camp in scene and check type
+            Relaxing();
         }
 
 
@@ -209,15 +191,37 @@ public class GameController : MonoBehaviour
         refreshScreen.SetActive(true);
     }
 
+ 
 
+    public void LoadMainMenu()
+    {
+        SceneManager.LoadScene(MainMenu);
+    }
 
+    public void Quit()
+    {
+        Application.Quit();
+    }
 
+    public void ResetScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 
+    public void PauseMenu()
+    {
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            pauseMenu.SetActive(true);
+            Time.timeScale = 0;
+        }
+    }
 
-
-
-
-
+    public void ResumeGame()
+    {
+        pauseMenu.SetActive(false);
+        Time.timeScale = 1;
+    }
 
 
 

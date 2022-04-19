@@ -8,7 +8,7 @@ public class Ball : MonoBehaviour
     public float force;
     public GameObject ball;
     public bool hit;
-
+    public GameController GC;
 
 
 
@@ -31,6 +31,7 @@ public class Ball : MonoBehaviour
         GameObject BallIns = Instantiate(ball, transform.position, transform.rotation);
 
         BallIns.GetComponent<Rigidbody2D>().velocity = transform.right * force;
+        GC.GetComponent<GameController>().UpdateBalls();
 
     }
 
