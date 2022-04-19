@@ -72,7 +72,7 @@ public class ballcollider : MonoBehaviour
         }
         if (collision.gameObject.tag == "ground")
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
 
     }

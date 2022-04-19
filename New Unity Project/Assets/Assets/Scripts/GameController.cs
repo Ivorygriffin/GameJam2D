@@ -164,6 +164,7 @@ public class GameController : MonoBehaviour
         if(currentScore == camp1Score)
         {
             Socialising();
+            currentBall = 0;
             
         }
         if(currentScore == camp2Score)
