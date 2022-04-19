@@ -72,7 +72,7 @@ public class GameController : MonoBehaviour
     void Update()
     {
         ScoreTextUpdate();
-        MountainClimbing();
+        //MountainClimbing();
         PointCheck();
         
     }
@@ -84,38 +84,38 @@ public class GameController : MonoBehaviour
 
   
 
-    public void MountainClimbing()
-    {
-        // UI person climbs more depending on score collected
-        //slider moves stick figure up 
-        if (_slider1 == true && currentScore != s1Max)
-        {
-            s1.value = currentScore;
-        }
-        if (currentScore == s1Max && _slider1 == true)
-        {
-            slider1.SetActive(false);
-            _slider1 = false;
-            slider2.SetActive(true);
-            _slider2 = true;
-        }
-        if(_slider2 == true && currentScore != s2Max)
-        {
-            s2.value = currentScore;
-        }
-        if (currentScore == s2Max && _slider2 == true)
-        {
-            slider2.SetActive(false);
-            _slider2 = false;
-            slider3.SetActive(true);
-            _slider3 = true;
-        }
-        if(_slider3 == true && currentScore != s3Max)
-        {
-            s3.value = currentScore;
-        }
+    //public void MountainClimbing()
+    //{
+    //    // UI person climbs more depending on score collected
+    //    //slider moves stick figure up 
+    //    if (_slider1 == true && currentScore != s1Max)
+    //    {
+    //        s1.value = currentScore;
+    //    }
+    //    if (currentScore == s1Max && _slider1 == true)
+    //    {
+    //        slider1.SetActive(false);
+    //        _slider1 = false;
+    //        slider2.SetActive(true);
+    //        _slider2 = true;
+    //    }
+    //    if(_slider2 == true && currentScore != s2Max)
+    //    {
+    //        s2.value = currentScore;
+    //    }
+    //    if (currentScore == s2Max && _slider2 == true)
+    //    {
+    //        slider2.SetActive(false);
+    //        _slider2 = false;
+    //        slider3.SetActive(true);
+    //        _slider3 = true;
+    //    }
+    //    if(_slider3 == true && currentScore != s3Max)
+    //    {
+    //        s3.value = currentScore;
+    //    }
 
-    }
+    //}
     public void BallText()
     {
         BallsRemaining.text = currentBall.ToString();
