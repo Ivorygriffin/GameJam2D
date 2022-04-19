@@ -18,11 +18,10 @@ public class Canon : MonoBehaviour
     {
         
         Vector2 MousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector2 canonpos = transform.position;
-        //Debug.Log(canonpos);
-        //Debug.Log(MousePos);
+        Vector2 Canonpos = transform.position;
 
-        direction = transform.right;
+        direction = MousePos - Canonpos;
+
    
         FaceMouse();
     }
