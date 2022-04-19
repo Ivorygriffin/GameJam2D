@@ -151,17 +151,17 @@ public class GameController : MonoBehaviour
         //third camp reached triggers end of level 
         if(currentScore >= finalCampScore)
         {
-            winScreen.SetActive(true);
-            Canonn.SetActive(false);
+
+            SceneManager.LoadScene(win);
+
             Debug.Log("levelComplete");
         }
     }
 
     public void GameOver()
     {
-        gameoverScreen.SetActive(true);
-        Canonn.SetActive(false);
-        
+        SceneManager.LoadScene(lose);
+        Debug.Log("lose");
     }
 
 
@@ -243,14 +243,7 @@ public class GameController : MonoBehaviour
         Time.timeScale = 1;
     }
 
-    public void LoadWin()
-    {
-        SceneManager.LoadScene(win);
-    }
-    public void Loadlose()
-    {
-        SceneManager.LoadScene(lose);
-    }
+  
 
 
     public void apple()

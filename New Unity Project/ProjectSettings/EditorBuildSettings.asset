@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LevelOneFINAL.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Assets/Scenes/GameOverScreen.unity
+    guid: a482734ac7ceca44e9966a980101a3b6
+  - enabled: 1
+    path: Assets/Assets/Scenes/WinScreen.unity
+    guid: b3141a7644e6d824a89eb9f926297615
   m_configObjects: {}

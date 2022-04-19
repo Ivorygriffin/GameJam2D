@@ -431,6 +431,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MainMenu: Main Menu
   Level1: LevelOneFINAL
+  win: 
+  lose: 
   ScoreText: {fileID: 0}
   BallsRemaining: {fileID: 0}
   PointsUntilNextCamp: {fileID: 0}
@@ -787,7 +789,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 347361462}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
         m_MethodName: LoadMainMenu
         m_Mode: 1
@@ -920,9 +922,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 347361462}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
-        m_MethodName: ResetScene
+        m_MethodName: LoadLevel1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
